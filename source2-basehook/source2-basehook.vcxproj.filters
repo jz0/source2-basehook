@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source2SDK">
+      <UniqueIdentifier>{59d23501-0360-4bd6-822f-56c8f4a25ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{3d1fdc6b-3344-41d0-a939-2aaee3928e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{cd5a248e-fda6-4328-aed5-fb5e0583c368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{a6aa4a3b-4201-40f6-848c-ffcc9b1371c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\CEngineClient.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\CSource2Client.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\CGlobalVarsBase.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\ClientClass.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\VMTHook.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\SDK.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\ISurface.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\Color.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\Vector.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\CreateMove.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\IClientModeShared.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\QAngle.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\CUserCmd.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\Schema.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\LevelInit.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utilities.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2SDK\CEngineVGUI.hpp">
+      <Filter>Source2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\PaintTraverse.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source2SDK\SDK.cpp">
+      <Filter>Source2SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\CreateMove.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\LevelInit.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\PaintTraverse.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
