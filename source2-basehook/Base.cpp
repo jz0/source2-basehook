@@ -37,7 +37,6 @@ void Base::InitInterfaces()
 
 VMTHook* Panel = nullptr;
 VMTHook* ClientMode = nullptr;
-VMTHook* IsInGame = nullptr;
 
 void Base::InitHooks()
 {
@@ -52,4 +51,3 @@ void Base::InitHooks()
 
 	Msg(Color(0, 0, 0, 255), "Hooks initialized \n");
 }
-
